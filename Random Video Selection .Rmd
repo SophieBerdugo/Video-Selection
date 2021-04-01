@@ -55,3 +55,14 @@ Code | UID
 32   |f123a92d-aa11-49c5-8285-e2ac099791c0
 33   |fbe25264-a3bb-4602-92ba-456b45d13132
 34   |fc525431-2d8d-4443-a4f2-2f2f9cb44c17
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(readxl)
+subject_videos_2010 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subject cracking UIDs by Year.xlsx")
+subject_videos_2010
+```
