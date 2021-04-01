@@ -75,7 +75,8 @@ subject_videos_2010
 ```
 #### Random Video Selection
 In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
 1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
-2. Set the seed value using the ```{r eval = FALSE} set.seed()``` function.
-3. Use the ```{r eval = FALSE} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
 4. Repeat this process for each subject until all data is collected.
