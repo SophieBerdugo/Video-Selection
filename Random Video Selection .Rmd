@@ -3,60 +3,65 @@
 ## Year: 2010
 
 ### Subjects
+
 The focal individuals in the 2010 footage can be found in Table 1.
+
 **Table 1**
-Subject | Sex | Age Class
---------|-----|-----------
-Fana    |F    |Adult
-Jire    |F    |Adult
-Yo      |F    |Adult
-Velu    |F    |Adult
-Tua     |M    |Adult
-Foaf    |M    |Adult
-Jeje    |M    |Adult
-Peley   |M    |Adult
-Fanle   |F    |Adult
-Joya    |F    |Juvenile
+
+|Subject  | Sex | Age Class |
+|:------: |:---:| :--------:|
+|Fana     |F    | Adult     |
+|Jire     |F    | Adult     |
+|Yo       |F    | Adult     |
+|Velu     |F    | Adult     |
+|Tua      |M    | Adult     |
+|Foaf     |M    | Adult     |
+|Jeje     |M    | Adult     |
+|Peley    |M    | Adult     |
+|Fanle    |F    | Adult     |
+|Joya     |F    | Juvenile  |
 
 ### Video Unique Identifiers
 There are 34 videos in the Bossou Video Archive taken in 2010. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
 **Table 2**
-Code | UID
------|------------------------------------
-1    |0e7a54d3-fc7a-4f49-aa83-2d0dab32a2de
-2    |1b99769c-d7bb-48e4-94a2-03822e304aba
-3    |2052fed5-e5f3-4a4d-b872-2965529afcd1
-4    |25d1467e-1efe-454a-b49f-4a0d77eb277e
-5    |2a3d5742-f519-43b9-a87b-4e8baa4219b3
-6    |2c13ea8a-8281-407f-9bc8-1f8f4287ae3c 
-7    |36200126-5e9b-466c-a904-dfca9befec3c
-8    |383325a0-1749-4015-a497-d7e7ef901ba0
-9    |3e1129da-03df-4b23-b991-494876084f56
-10   |457f9f6a-bfff-4a7e-bf7d-e7d4c59ee716 
-11   |45b1c7ec-f268-4489-96bc-eb89fda744fa
-12   |49c8df9d-7c5b-482c-882a-16e390672452
-13   |52205fc7-bb83-43e5-8c33-aa6e622ff47c
-14   |5f2ceeb7-77e6-4efc-9550-0ffeafeb69bd
-15   |628c31ea-5af6-428e-b1f1-726c3b7b95dc
-16   |68f0091b-e972-4a19-a20f-8b20c79eecfc
-17   |8cd3b20b-f527-4092-907c-0311c8f3cfa6
-18   |903a667a-d6d4-4137-8357-a1aac919e70d
-19   |93076580-495f-4e79-9708-7ec8b48f461b
-20   |93c08160-2f60-4571-9ba9-7466fbefcdb8
-21   |961725ab-7b6f-4d21-a7b6-8dacd40e2fe7
-22   |998a5667-fd56-456d-b51d-75095897bd51
-23   |9e0e180f-89cc-430d-8171-4b68e67928fd
-24   |9f253167-cd41-4b48-9b36-4fe5f4669854
-25   |aa6401f0-3d47-4cde-844d-0610f42030ba
-26   |caadaeb0-e767-48fc-b880-9a5bc7c62b19
-27   |deec7b52-8501-4318-967a-861e611a155a
-28   |e2254775-235f-4339-91e0-b142d5c53b3e
-29   |e2f85b7b-f66a-4f9e-af49-b962a05e4605
-30   |e79a4e92-9640-4dcb-8d28-943281755186
-31   |e8a73ce8-6698-4726-b43a-e35cbaaec212
-32   |f123a92d-aa11-49c5-8285-e2ac099791c0
-33   |fbe25264-a3bb-4602-92ba-456b45d13132
-34   |fc525431-2d8d-4443-a4f2-2f2f9cb44c17
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+|1     | 0e7a54d3-fc7a-4f49-aa83-2d0dab32a2de |
+|2     | 1b99769c-d7bb-48e4-94a2-03822e304aba |
+|3     | 2052fed5-e5f3-4a4d-b872-2965529afcd1 |
+|4     | 25d1467e-1efe-454a-b49f-4a0d77eb277e |
+|5     | 2a3d5742-f519-43b9-a87b-4e8baa4219b3 |
+|6     | 2c13ea8a-8281-407f-9bc8-1f8f4287ae3c |
+|7     | 36200126-5e9b-466c-a904-dfca9befec3c |
+|8     | 383325a0-1749-4015-a497-d7e7ef901ba0 |
+|9     | 3e1129da-03df-4b23-b991-494876084f56 |
+|10    | 457f9f6a-bfff-4a7e-bf7d-e7d4c59ee716 |
+|11    | 45b1c7ec-f268-4489-96bc-eb89fda744fa |
+|12    | 49c8df9d-7c5b-482c-882a-16e390672452 |
+|13    | 52205fc7-bb83-43e5-8c33-aa6e622ff47c |
+|14    | 5f2ceeb7-77e6-4efc-9550-0ffeafeb69bd |
+|15    | 628c31ea-5af6-428e-b1f1-726c3b7b95dc |
+|16    | 68f0091b-e972-4a19-a20f-8b20c79eecfc |
+|17    | 8cd3b20b-f527-4092-907c-0311c8f3cfa6 |
+|18    | 903a667a-d6d4-4137-8357-a1aac919e70d |
+|19    | 93076580-495f-4e79-9708-7ec8b48f461b |
+|20    | 93c08160-2f60-4571-9ba9-7466fbefcdb8 |
+|21    | 961725ab-7b6f-4d21-a7b6-8dacd40e2fe7 |
+|22    | 998a5667-fd56-456d-b51d-75095897bd51 |
+|23    | 9e0e180f-89cc-430d-8171-4b68e67928fd |
+|24    | 9f253167-cd41-4b48-9b36-4fe5f4669854 |
+|25    | aa6401f0-3d47-4cde-844d-0610f42030ba |
+|26    | caadaeb0-e767-48fc-b880-9a5bc7c62b19 |
+|27    | deec7b52-8501-4318-967a-861e611a155a |
+|28    | e2254775-235f-4339-91e0-b142d5c53b3e | 
+|29    | e2f85b7b-f66a-4f9e-af49-b962a05e4605 |
+|30    | e79a4e92-9640-4dcb-8d28-943281755186 |
+|31    | e8a73ce8-6698-4726-b43a-e35cbaaec212 |
+|32    | f123a92d-aa11-49c5-8285-e2ac099791c0 |
+|33    | fbe25264-a3bb-4602-92ba-456b45d13132 |
+|34    | fc525431-2d8d-4443-a4f2-2f2f9cb44c17 |
 
 ### Data Collection
 The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
