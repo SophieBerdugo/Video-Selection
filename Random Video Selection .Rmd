@@ -18,7 +18,7 @@ Fanle   |F    |Adult
 Joya    |F    |Juvenile
 
 ### Video Unique Identifiers
-There are 32 videos in the Bossou Video Archive taken in 2010. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are:
+There are 34 videos in the Bossou Video Archive taken in 2010. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the table below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time. 
 Code | UID
 -----|------------------------------------
 1    |0e7a54d3-fc7a-4f49-aa83-2d0dab32a2de
