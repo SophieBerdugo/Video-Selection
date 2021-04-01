@@ -1,0 +1,20 @@
+# Random Video UID Selection for Adult Efficiency and Model Investment
+
+## Year: 2010
+
+### Subjects
+The focal individuals in the 2010 footage are:
+Subject | Sex | Age Class
+--------|-----|-----------
+Fana    |F    |Adult
+Jire    |F    |Adult
+Yo      |F    |Adult
+Velu    |F    |Adult
+Tua     |M    |Adult
+Foaf    |M    |Adult
+Jeje    |M    |Adult
+Peley   |M    |Adult
+Fanle   |F    |Adult
+Joya    |F    |Juvenile
+
+There are 32 videos in the Bossou Video Archive taken in 2010. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are:
