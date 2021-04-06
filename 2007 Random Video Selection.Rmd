@@ -21,3 +21,19 @@ The focal individuals in the 2007 footage can be found in Table 1.
 |Peley    |M    | Adolescent |
 |Fanle    |F    | Adult      |
 
+### Video Unique Identifiers
+There are 8 videos in the Bossou Video Archive taken in 2007. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+|1     | 35f060ec-21aa-44e6-aa00-c032c6b38a6d |
+|2     | 5175cbe5-9fa4-4b77-8e3b-aded9913a1f6 |
+|3     | 8ac130f3-462d-4f03-892b-96361b8a0ea6 |
+|4     | c94ff337-9ef7-4c48-b454-048f4452184d |
+|5     | e1885940-359f-4629-8626-23b6c1dc1363 |
+|6     | e2dbf242-ca3d-483f-bf65-c0bc7d7fce08 |
+|7     | ec884b97-492c-445d-8547-eae596c6cc24 |
+|8     | f5a0f238-60e1-4080-802a-42013c73e585 |
+
