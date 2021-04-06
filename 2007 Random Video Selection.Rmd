@@ -3,3 +3,21 @@
 ## Year: 2007
 
 ### Subjects
+
+The focal individuals in the 2007 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class  |
+|:------: |:---:| :---------:|
+|Fana     |F    | Adult      |
+|Yo       |F    | Adult      |
+|Velu     |F    | Adult      |
+|Jire     |F    | Adult      |
+|Tua      |M    | Adult      |
+|Foaf     |M    | Adult      |
+|Yolo     |M    | Adult      |
+|Jeje     |M    | Adult      |
+|Peley    |M    | Adolescent |
+|Fanle    |F    | Adult      |
+
