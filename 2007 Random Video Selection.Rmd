@@ -54,3 +54,87 @@ Table 3, below, shows the videos in which each focal subject is nut-cracking. In
 |Jeje     | 1       | 1       | 1       | 0       | 0       | 1       | 1       | 1       | 
 |Peley    | 1       | 0       | 1       | 1       | 1       | 0       | 1       | 0       | 
 |Fanle    | 0       | 0       | 1       | 1       | 1       | 0       | 1       | 0       | 
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Fana**
+
+```{r}
+fana_07 <- c(3,4,5,8) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fana_07, 4, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Yo**
+
+```{r}
+yo_07 <- c(4,5,7)
+set.seed(123)
+sample(yo_07, 3, replace = FALSE)
+```
+
+**Velu**
+
+There are no videos in 2007 in which Velu is visible nut-cracking.
+
+**Jire**
+
+```{r}
+jire_07 <- c(1,2,3,4,6,7)
+set.seed(123)
+sample(jire_07, 6, replace = FALSE)
+```
+
+**Tua**
+
+```{r}
+tua_07 <- c(2,3,4,6,7)
+set.seed(123)
+sample(tua_07, 5, replace = FALSE)
+```
+
+**Foaf**
+
+```{r}
+foaf_07 <- c(2,3,6)
+set.seed(123)
+sample(foaf_07, 3, replace = FALSE)
+```
+
+**Yolo**
+
+```{r}
+yolo_07 <- c(1,2,3,4,5,7,8)
+set.seed(123)
+sample(yolo_07, 7, replace = FALSE)
+```
+
+**Jeje**
+
+```{r}
+jeje_07 <- c(1,2,3,6,7,8)
+set.seed(123)
+sample(jeje_07, 6, replace = FALSE)
+```
+
+**Peley**
+
+```{r}
+peley_07 <- c(1,3,4,5,7)
+set.seed(123)
+sample(peley_07, 5, replace = FALSE)
+```
+
+**Fanle**
+
+```{r}
+fanle_07 <- c(3,4,5,7)
+set.seed(123)
+sample(fanle_07, 4, replace = FALSE)
+```
