@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Subjects
 
-The focal individuals in the 2010 footage can be found in Table 1.
+The focal individuals in the 2009 footage can be found in Table 1.
 
 **Table 1**
 
