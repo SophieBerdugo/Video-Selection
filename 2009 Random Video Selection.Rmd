@@ -31,3 +31,53 @@ The focal individuals in the 2009 footage can be found in Table 1.
 |Jeje     |M    | Adult     |
 |Peley    |M    | Adult     |
 |Fanle    |F    | Adult     |
+
+### Video Unique Identifiers
+There are 42 videos in the Bossou Video Archive taken in 2009. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+|1     | 0c8952c5-3522-408c-bf5a-aac55f7a339f |
+|2     | 10db8653-ed10-44a4-b45e-c19d44cfe02e |
+|3     | 14ad2b7c-37fb-4a58-a903-d0fee89f54fd |
+|4     | 2f5ff440-7130-4c71-942d-419659b04740 |
+|5     | 3b86e366-517a-4661-89b9-b320acd912d2 | 
+|6     | 3f7c49bb-b4c0-46fe-b8e9-6f1daa774bd8 | 
+|7     | 4582fe24-8adc-4780-8a0e-bcef40f33585 |
+|8     | 4632930d-e88b-414d-b6d5-a834a0958f3d |
+|9     | 489ab4b7-c734-4bb2-995f-b31cf2d78445 |
+|10    | 49333dbe-44dd-418a-9a9b-5ac094d9a165 |
+|11    | 49e41cca-4f72-442b-8f34-b05066e5ef69 |
+|12    | 55ee4490-5bd1-462e-b8c0-bd7a3b833e2f |
+|13    | 570f3315-518f-4c5c-959d-e5f72badc048 |
+|14    | 6166b22b-a4a1-4f9e-a99c-60f98dbcb211 |
+|15    | 69222bd8-8616-4a25-bcf9-1b00c42fc673 |
+|16    | 73a0b9db-c9d6-41ef-a221-a4b04b731f10 |
+|17    | 73ca7ea6-0c9a-44ac-a670-2efe2918e3a7 |
+|18    | 756836e7-a44a-4543-9b6e-0a30cf24986e |
+|19    | 84a74f48-21e3-4e7c-b543-0553c30034e0 |
+|20    | 94b1216b-6b75-4888-8312-13342ba1b0e0 |
+|21    | a5f74c38-450c-41f0-b313-3399a52975c6 |
+|22    | a654c2a2-d3b0-439e-bc4c-8ad22a33590a |
+|23    | a6b44b5a-ffd4-4425-ac88-cb2560b19336 |
+|24    | b82d8dd5-89e9-4d01-bb45-f77e38d17b02 |
+|25    | c40d36d7-a4c6-44fc-8cec-fb5c4f148108 |
+|26    | c6543e18-017c-4270-8135-e93440242cf3 |
+|27    | c89bc242-36f1-43e2-a607-ba592fd2a679 |
+|28    | ca384a51-12e5-492c-99af-3b6e001f900a |
+|29    | cfc96e74-f3d0-4df8-9a40-e14f00e13593 |
+|30    | d396e109-0fa4-45c1-9a56-11c7917aef6a |
+|31    | d3e88f7f-4d56-4cfd-83b1-ba2a4a2760a2 |
+|32    | d7d7597c-01f2-4892-a5e5-a129ad4e5b31 |
+|33    | d8d51507-aa62-4fc9-a8c7-4ad90328da75 |
+|34    | de7f192a-23d6-4878-96eb-d15b51a18adb |
+|35    | e3371efa-8ddf-486a-af7e-464a7814791e |
+|36    | ea8e1ca0-3ace-4b1d-b36b-e515f3bfe4b8 |
+|37    | f03adc2b-3498-4b5b-996e-d1c96155d0c2 |
+|38    | f37e4303-ac15-45b5-a252-c5c822b94f68 |
+|39    | f4ebf2e4-1dc2-489e-826b-0869defb5d5f |
+|40    | f75af2db-91f7-4cda-a275-ac6cc15e0e38 |
+|41    | f83ed560-359a-4156-8567-fc0c9395bc6b |
+|42    | fbea56f9-a9a5-4616-8db2-9c370c188d22 |
