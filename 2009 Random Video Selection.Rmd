@@ -9,3 +9,25 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Random Video UID Selection for Adult Efficiency and Model Investment
+
+## Year: 2009
+
+### Subjects
+
+The focal individuals in the 2010 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class |
+|:------: |:---:| :--------:|
+|Fana     |F    | Adult     |
+|Jire     |F    | Adult     |
+|Yo       |F    | Adult     |
+|Velu     |F    | Adult     |
+|Tua      |M    | Adult     |
+|Yolo     |M    | Adult     |
+|Foaf     |M    | Adult     |
+|Jeje     |M    | Adult     |
+|Peley    |M    | Adult     |
+|Fanle    |F    | Adult     |
