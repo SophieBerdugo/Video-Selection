@@ -1,0 +1,14 @@
+---
+title: "2008 Random Video Selection"
+author: "Sophie Berdugo"
+date: "04/06/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection for Adult Efficiency and Model Investment
+
+## Year: 2008
