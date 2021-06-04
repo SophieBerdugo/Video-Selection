@@ -22,7 +22,7 @@ The focal individuals in the 2007 footage can be found in Table 1.
 |Fanle    |F    | Adult      |
 
 ### Video Unique Identifiers
-There are 8 videos in the Bossou Video Archive taken in 2007. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+There are 8 videos in the Bossou Video Archive taken in 2007. The unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
 
 **Table 2**
 
