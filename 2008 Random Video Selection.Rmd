@@ -64,3 +64,9 @@ There are 27 videos in the Bossou Video Archive taken in 2008 which contain nut-
 |25    | e5887ae7-573a-4841-9580-098fd977ecee |
 |26    | eb689df8-372f-4378-8d9c-82e7377165f5 |
 |27    | f60bc1ca-30f2-45fe-88fc-29e46a7932eb |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
