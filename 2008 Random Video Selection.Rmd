@@ -31,7 +31,7 @@ The focal individuals in the 2008 footage can be found in Table 1.
 |Fanle    |F    | Adult      |
 
 ### Video Unique Identifiers
-There are 27 videos in the Bossou Video Archive taken in 2008 which contain nut-cracking behaviour. The unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+There are 26 videos in the Bossou Video Archive taken in 2008 which contain nut-cracking behaviour and which have not been used in the training of research assistants. The unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
 
 **Table 2**
 
@@ -43,27 +43,26 @@ There are 27 videos in the Bossou Video Archive taken in 2008 which contain nut-
 |4     | 171e0250-79db-454b-bd79-c84662620953 |
 |5     | 1ca87087-0a45-4535-b54b-52721eae5682 |
 |6     | 280e3920-0495-456a-97bc-a627b97a917e |
-|7     | 308eea63-118f-430d-90f4-db28e07688a0 |
-|8     | 31e021b5-8ab6-450f-b5ef-73e2975b50d4 |
-|9     | 423a34e8-714f-4daf-b6c9-d537778d6c20 |
-|10    | 453c3e30-3bb1-447a-921d-6438180bdcf3 |
-|11    | 4d9be5bc-e650-426a-8e8d-d3fc8598913d |
-|12    | 5201fb44-16e8-4002-8ecf-d52c2ac80002 |
-|13    | 52897833-da58-4024-bb3d-e939aa8c945a |
-|14    | 5781924b-c850-4f8a-9c2e-4f38d6812b9d |
-|15    | 65a43786-8ca6-4073-8f6a-3c55623ba4bb |
-|16    | 68ea3045-e9c7-4efe-b779-09ca09c99500 |
-|17    | 7030e942-604f-4ed5-9745-a4bac91b862b |
-|18    | 7f7d7ecb-e4da-4244-9132-8b3407e8b95a |
-|19    | 80158129-5dfe-4121-ba61-fa6b1c624b5a |
-|20    | 82b19ff9-b9aa-437e-aaf6-2adaf186e6e1 |
-|21    | 8e3f51e9-26fc-4de5-8799-c7a86059805c |
-|22    | a0fc225c-3d78-4c95-882b-227f65bd74d3 |
-|23    | aa26fa9f-5bf2-45ea-a733-8e24ec645f3a |
-|24    | aabb8f31-7ba0-4601-ba25-672cea83e7a3 |
-|25    | e5887ae7-573a-4841-9580-098fd977ecee |
-|26    | eb689df8-372f-4378-8d9c-82e7377165f5 |
-|27    | f60bc1ca-30f2-45fe-88fc-29e46a7932eb |
+|7     | 31e021b5-8ab6-450f-b5ef-73e2975b50d4 |
+|8     | 423a34e8-714f-4daf-b6c9-d537778d6c20 |
+|9     | 453c3e30-3bb1-447a-921d-6438180bdcf3 |
+|10    | 4d9be5bc-e650-426a-8e8d-d3fc8598913d |
+|11    | 5201fb44-16e8-4002-8ecf-d52c2ac80002 |
+|12    | 52897833-da58-4024-bb3d-e939aa8c945a |
+|13    | 5781924b-c850-4f8a-9c2e-4f38d6812b9d |
+|14    | 65a43786-8ca6-4073-8f6a-3c55623ba4bb |
+|15    | 68ea3045-e9c7-4efe-b779-09ca09c99500 |
+|16    | 7030e942-604f-4ed5-9745-a4bac91b862b |
+|17    | 7f7d7ecb-e4da-4244-9132-8b3407e8b95a |
+|18    | 80158129-5dfe-4121-ba61-fa6b1c624b5a |
+|19    | 82b19ff9-b9aa-437e-aaf6-2adaf186e6e1 |
+|20    | 8e3f51e9-26fc-4de5-8799-c7a86059805c |
+|21    | a0fc225c-3d78-4c95-882b-227f65bd74d3 |
+|22    | aa26fa9f-5bf2-45ea-a733-8e24ec645f3a |
+|23    | aabb8f31-7ba0-4601-ba25-672cea83e7a3 |
+|24    | e5887ae7-573a-4841-9580-098fd977ecee |
+|25    | eb689df8-372f-4378-8d9c-82e7377165f5 |
+|26    | f60bc1ca-30f2-45fe-88fc-29e46a7932eb |
 
 ### Data Collection
 The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
