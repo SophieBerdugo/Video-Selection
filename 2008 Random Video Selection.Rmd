@@ -69,3 +69,10 @@ The focal subjects appear in the videos to varying degrees. For data collection,
 
 In the data frame, 1 = present and 0 = not present.
 
+
+```{r}
+library(tidyverse) #load tidyverse
+library(readxl)
+subject_videos_2008 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/2008_subject_UIDs.xlsx")
+subject_videos_2008 #print table
+```
