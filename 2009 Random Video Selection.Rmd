@@ -79,3 +79,15 @@ There are 40 videos in the Bossou Video Archive taken in 2009. The video unique 
 |38    | f75af2db-91f7-4cda-a275-ac6cc15e0e38 |
 |39    | f83ed560-359a-4156-8567-fc0c9395bc6b |
 |40    | fbea56f9-a9a5-4616-8db2-9c370c188d22 |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(readxl)
+subject_videos_2009 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/2009_subject_UIDs.xlsx")
+subject_videos_2009 #print table
+```
+
