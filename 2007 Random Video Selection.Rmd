@@ -1,3 +1,8 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 # Random Video UID Selection for Adult Efficiency and Model Investment
 
 ## Year: 2007
@@ -41,6 +46,8 @@ There are 8 videos in the Bossou Video Archive taken in 2007. The unique identif
 The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. 
 
 Table 3, below, shows the videos in which each focal subject is nut-cracking. In the table, 1 = nut-cracking and 0 = not nut-cracking.
+
+**Table 3**
 
 |Subject  | Video 1 | Video 2 | Video 3 | Video 4 | Video 5 | Video 6 | Video 7 | Video 8 |
 |:------: | :------:| :------:| :------:| :------:| :------:| :------:| :------:| :------:|
