@@ -1,0 +1,158 @@
+---
+title: "1995 Random Video Selection"
+author: "Sophie Berdugo"
+date: "29/09/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection
+
+## Year: 1995
+
+### Subjects
+
+The focal individuals in the 1995 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class  |
+|:------: |:---:| :---------:|
+|Fana     |F    | Adult      |
+|Yo       |F    | Adult      |
+|Velu     |F    | Adult      |
+|Kai      |F    | Adult      |
+|Jire     |F    | Adult      |
+|Pili     |F    | Adolescent |
+|Tua      |M    | Adult      |
+|Foaf     |M    | Adult      |
+|Vui      |M    | Adolescent |
+|Na       |M    | Adult      |
+
+### Video Unique Identifiers
+There are 17 videos in the Bossou Video Archive taken in 1995 which contain nut-cracking. The unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+| 1    | 02a0f5c6-40f9-4ef9-ae34-9833c9710aaa |
+| 2    | 17ca0b81-32f4-4cf9-8376-ed4427d133db |
+| 3    | 1811f77c-8064-4269-a722-0e67927e3918 |
+| 4    | 1b3f1d6b-a589-44d8-9a1b-aee8ac1541eb |
+| 5    | 2277e75b-79eb-4729-9bdb-428d1f752275 |
+| 6    | 3d2ebc87-ffd6-4975-82a0-615fa15865d7 |
+| 7    | 51bc36d4-67a0-4a68-a5e3-be9278416ac3 |
+| 8    | 5d21458b-9b77-48ff-9b4f-af6bca0aa645 |
+| 9    | 654d6fe5-9616-4df7-acf7-7965005b797e |
+| 10   | 6b414e49-befd-45d3-8f3a-76e0e4c0a436 |
+| 11   | 7d2fafd7-ac1e-439e-8e90-006ce097954a |
+| 12   | 8570d2b3-4642-4734-8b3e-4aa40ce331c4 |
+| 13   | a42863b2-7ec6-4908-ba4f-5554f76844fb |
+| 14   | af1c51d2-9a6e-48b0-89ea-99f14887ced4 |
+| 15   | d8e64404-7111-4b70-9af6-cc0215516031 |
+| 16   | e863a455-588e-40e7-b3c8-b29c6faa9c67 |
+| 17   | ec80822b-7b3e-45c1-a252-e8913b3c76b8 |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(tidyverse) #load tidyverse
+library(readxl)
+subject_videos_1995 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/1995_subject_UIDs.xlsx")
+subject_videos_1995 #print table
+```
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Fana**
+
+```{r}
+fana_95 <- c(1,2,3,4,5,6,9,10,11,13,14,15,16,17)
+set.seed(123)
+sample(fana_95, 14, replace = FALSE)
+```
+
+**Yo**
+
+```{r}
+yo_95 <- c(2,3,4,5,7,8,9,10,11,14,15,16)
+set.seed(123)
+sample(yo_95, 12, replace = FALSE)
+```
+
+**Velu**
+
+```{r}
+velu_95 <- c(1,2,3,4,5,6,15)
+set.seed(123)
+sample(velu_95, 7, replace = FALSE)
+```
+
+**Kai**
+
+```{r}
+kai_95 <- c(1,2,3,4,5,6,7,8,11,12,13,15,16,17) 
+set.seed(123) 
+sample(kai_95, 14, replace = FALSE) 
+```
+
+**Jire**
+
+```{r}
+jire_95 <- c(1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17) 
+set.seed(123) 
+sample(jire_95, 16, replace = FALSE) 
+```
+
+**Pili**
+
+```{r}
+pili_95 <- c(1,3,4,5,7,10,12,14,15,16,17) 
+set.seed(123) 
+sample(pili_95, 11, replace = FALSE) 
+```
+
+**Tua**
+
+```{r}
+tua_95 <- c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)
+set.seed(123)
+sample(tua_95, 17, replace = FALSE)
+```
+
+**Foaf**
+
+```{r}
+foaf_95 <- c(1,3,4,5,6,7,8,9,10,11,12,14,16)
+set.seed(123)
+sample(foaf_95, 13, replace = FALSE)
+```
+
+**Vui**
+
+```{r}
+vui_95 <- c(1,2,3,7,8,9,10,12,15,17)
+set.seed(123)
+sample(vui_95, 10, replace = FALSE)
+```
+
+**Na**
+
+```{r}
+na_95 <- c(1,3,4,5,6,7,8,10,12,13,15,17)
+set.seed(123)
+sample(na_95, 12, replace = FALSE)
+```

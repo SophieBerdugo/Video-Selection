@@ -1,0 +1,143 @@
+---
+title: "1997 Random Video Selection"
+author: "Sophie Berdugo"
+date: "05/09/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection
+
+## Year: 1997
+
+### Subjects
+
+The focal individuals in the 1997 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class  |
+|:------: |:---:| :---------:|
+|Fana     |F    | Adult      |
+|Yo       |F    | Adult      |
+|Velu     |F    | Adult      |
+|Kai      |F    | Adult      |
+|Jire     |F    | Adult      |
+|Pili     |F    | Adult      |
+|Tua      |M    | Adult      |
+|Foaf     |M    | Adult      |
+|Vui      |M    | Adult      |
+
+### Video Unique Identifiers
+There are 11 videos in the Bossou Video Archive taken in 1997 which contain nut-cracking. The unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+| 1    | 15e18af4-82ea-495c-ab07-4345e319db22 |
+| 2    | 26d11e9d-ba7a-4212-8417-6c0ef2b9b7c5 |
+| 3    | 4adeed39-35ec-44ba-aabf-f088f80edb85 |
+| 4    | 54190c24-3b59-48b3-b45f-8d85fcebb1c3 |
+| 5    | 678e077e-85f8-4863-b0ca-6e83a2a2d9c3 |
+| 6    | 984b04e4-f72a-426c-aa55-c1e2b3110b03 |
+| 7    | a6c3f2d0-5530-44ee-85be-334be3aa5945 |
+| 8    | c488687f-7f55-4353-b45c-2e207e179314 |
+| 9    | c665c4e1-e1d4-4251-9ad9-97a69afb356f |
+| 10   | d6b9aa8d-e995-4c80-b3dc-e6138a91e308 |
+| 11   | d7d2a7eb-6ab1-4d07-8163-0197af4400cd |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(tidyverse) #load tidyverse
+library(readxl)
+subject_videos_1997 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/1997_subject_UIDs.xlsx")
+subject_videos_1997 #print table
+```
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Fana**
+
+```{r}
+fana_97 <- c(1,2,6,7,8,9,11)
+set.seed(123)
+sample(fana_97, 7, replace = FALSE)
+```
+
+**Yo**
+
+```{r}
+yo_97 <- c(3,4,6,9)
+set.seed(123)
+sample(yo_97, 4, replace = FALSE)
+```
+
+**Velu**
+
+```{r}
+velu_97 <- c(2,3)
+set.seed(123)
+sample(velu_97, 2, replace = FALSE)
+```
+
+**Kai**
+
+```{r}
+kai_97 <- c(1,4,8,11) 
+set.seed(123) 
+sample(kai_97, 4, replace = FALSE) 
+```
+
+**Jire**
+
+```{r}
+jire_97 <- c(2,3,5,6,7,9,10,11) 
+set.seed(123) 
+sample(jire_97, 8, replace = FALSE) 
+```
+
+**Pili**
+
+```{r}
+pili_97 <- c(3,6) 
+set.seed(123) 
+sample(pili_97, 2, replace = FALSE) 
+```
+
+**Tua**
+
+```{r}
+tua_97 <- c(1,2,6,8,10,11)
+set.seed(123)
+sample(tua_97, 6, replace = FALSE)
+```
+
+**Foaf**
+
+```{r}
+foaf_97 <- c(1,2,3,5,6,7,8)
+set.seed(123)
+sample(foaf_97, 7, replace = FALSE)
+```
+
+**Vui**
+
+```{r}
+vui_97 <- c(2,3,9,11)
+set.seed(123)
+sample(vui_97, 4, replace = FALSE)
+```

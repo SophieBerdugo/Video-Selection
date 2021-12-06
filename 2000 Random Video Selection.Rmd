@@ -1,0 +1,190 @@
+---
+title: "2000 Random Video Selection"
+author: "Sophie Berdugo"
+date: "03/09/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection
+
+## Year: 2000
+
+### Subjects
+
+The focal individuals in the 2000 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class  |
+|:------: |:---:| :---------:|
+|Fana     |F    | Adult      |
+|Yo       |F    | Adult      |
+|Velu     |F    | Adult      |
+|Kai      |F    | Adult      |
+|Jire     |F    | Adult      |
+|Pili     |F    | Adult      |
+|Tua      |M    | Adult      |
+|Foaf     |M    | Adult      |
+|Yolo     |M    | Adult      |
+|Vuavua   |F    | Adolescent |
+|Fotaiu   |F    | Adolescent |
+|Poni     |M    | Juvenile   |
+|Nto      |F    | Juvenile   |
+|Juru     |F    | Juvenile   |
+
+### Video Unique Identifiers
+There are 22 videos in the Bossou Video Archive taken in 2000 which contain nut-cracking. The unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+| 1    | 1a59d5b2-1af3-4675-9bf8-de3b5d7ed06d |
+| 2    | 2c6b5316-e14e-4c68-8f32-657065dadbd3 |
+| 3    | 2d59733c-1b5e-44cb-a19a-88d287eff4e0 |
+| 4    | 31a1d3a8-1a5f-4080-ad04-389909d6d0f6 |
+| 5    | 447898e5-9a69-432c-a409-99e6dd12c248 |
+| 6    | 4d27e41b-c36b-445c-a7b9-e89d6f525547 |
+| 7    | 563b0314-b057-4a5a-a6d3-3af23c4d29d4 |
+| 8    | 583bd405-a38a-44e7-829b-d789310aff8a |
+| 9    | 58afa9d7-d687-4498-aa6c-b0709d77288a |
+| 10   | 634c6c7e-0258-4c8f-8a5b-35319cc33daf |
+| 11   | 6546d425-2ce9-45e8-b7ac-f8f2f201f294 |
+| 12   | 6aef624b-c421-4230-bd12-bad07bdfcea7 |
+| 13   | 6becea2a-8989-4e50-a189-50e902afdfcc |
+| 14   | 6e9440f2-496e-49b7-b562-e807ae19d278 |
+| 15   | 6ee86fbc-e293-4e14-b472-c1533bf601e8 |
+| 16   | 74f9eb64-f1e8-496d-962f-2a771d1e4c92 |
+| 17   | 82f742be-fb20-457d-857e-a1c5d5540bfd |
+| 18   | 8cf3b8bb-1525-4cdf-9da6-39631011804a |
+| 19   | 98d8d9ac-2884-4df9-ad50-4c1f34f9352f |
+| 20   | bc8763a1-f075-4f07-8c3a-99bf998c390a |
+| 21   | cc515568-535d-47dd-b373-57402c55294c |
+| 22   | ec69cc4f-6ddc-4bbd-abfb-3468acd1ca5a |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(tidyverse) #load tidyverse
+library(readxl)
+subject_videos_2000 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/2000_subject_UIDs.xlsx")
+subject_videos_2000 #print table
+```
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Fana**
+
+```{r}
+fana_00 <- c(3,6,7,8,9,13,19,21) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fana_00, 8, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Yo**
+
+```{r}
+yo_00 <- c(1,3,4,7,9,10,12,13,16,17,18,20,21,22)
+set.seed(123)
+sample(yo_00, 14, replace = FALSE)
+```
+
+**Velu**
+
+```{r}
+velu_00 <- c(2,3,5,8,15,16,18)
+set.seed(123)
+sample(velu_00, 7, replace =FALSE)
+```
+
+**Jire**
+
+```{r}
+jire_00 <- c(2,3,4,5,6,7,9,12,13,14,15,18,19,20,21,22) 
+set.seed(123) 
+sample(jire_00, 16, replace = FALSE) 
+```
+
+**Kai**
+
+```{r}
+kai_00 <- c(1,2,12,13,14,15,16,19,20,22) 
+set.seed(123) 
+sample(kai_00, 10, replace = FALSE) 
+```
+
+**Pili**
+
+```{r}
+pili_00 <- c(2,5,13,16,20,21) 
+set.seed(123) 
+sample(pili_00, 6, replace = FALSE) 
+```
+
+**Tua**
+
+```{r}
+tua_00 <- c(6,8,9,11,13,14,15,16,20)
+set.seed(123)
+sample(tua_00, 9, replace = FALSE)
+```
+
+**Foaf**
+
+```{r}
+foaf_00 <- c(2,3,4,5,6,7,8,9,12,13,16,17,18,20,22)
+set.seed(123)
+sample(foaf_00, 15, replace = FALSE)
+```
+
+**Yolo**
+
+```{r}
+yolo_00 <- c(1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,20,21,22)
+set.seed(123)
+sample(yolo_00, 20, replace = FALSE)
+```
+
+**Vuavua**
+
+```{r}
+vuavua_00 <- c(1,2,3,5,7,8,9,16,17,18,20,21,22)
+set.seed(123)
+sample(vuavua_00, 13, replace = FALSE)
+```
+
+**Fotaiu**
+
+```{r}
+fotaiu_00 <- c(2,3,4,5,6,7,8,9,12,15,16,17,18,19,20,21,22)
+set.seed(123)
+sample(fotaiu_00, 17, replace = FALSE)
+```
+
+**Poni**
+
+```{r}
+poni_00 <- 21
+print(poni_00)
+```
+
+**Nto**
+
+```{r}
+nto_00 <- c(6,10,11,12,15,16,17,18,21,22)
+set.seed(123)
+sample(nto_00, 10, replace = FALSE)
+```

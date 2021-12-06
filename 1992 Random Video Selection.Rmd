@@ -1,0 +1,170 @@
+---
+title: "1992 Random Video Selection"
+author: "Sophie Berdugo"
+date: "08/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection
+
+## Year: 1992
+
+### Subjects
+
+The focal individuals in the 1993 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class  |
+|:------: |:---:| :---------:|
+|Fana     |F    | Adult      |
+|Yo       |F    | Adult      |
+|Velu     |F    | Adult      |
+|Kai      |F    | Adult      |
+|Jire     |F    | Adult      |
+|Ja       |F    | Adult      |
+|Yunro    |F    | Adolescent |
+|Tua      |M    | Adult      |
+|Foaf     |M    | Adult      |
+|Na       |M    | Juvenile   |
+|Vui      |M    | Juvenile   |
+
+### Video Unique Identifiers
+There are 19 videos in the Bossou Video Archive taken in 1992 which contain nut-cracking. The unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+| 1    | 0074a3fa-8fe9-4d3a-8734-6669748ff045 |
+| 2    | 1428223d-29df-4039-a568-efed9e245107 |
+| 3    | 26eebf81-2868-44af-8691-552b71106813 |
+| 4    | 2e6b013f-bc31-4853-a31c-5abe50538fbd |
+| 5    | 41a93491-743f-490d-aed8-305e4672d801 |
+| 6    | 55023bac-82c9-47bc-b6ab-6a8d816bbb54 |
+| 7    | 626802e5-946a-4d4e-a808-124c9f25e6bb |
+| 8    | 63ea5345-f339-4d98-967c-1d585fff2d2f |
+| 9    | 6c21c301-a3c6-474e-b6d5-84e81eacac3a |
+| 10   | 82f7cb1d-6e71-4ed5-8bb6-b9d8821731e3 |
+| 11   | 8351c136-c76b-4d21-bfa5-debcd7a35e0f |
+| 12   | 8808b280-043d-4a51-abc4-2fbb35f47522 |
+| 13   | bdba777e-570e-42eb-b899-b6ccb612da0f |
+| 14   | c4433114-fdd7-418d-9a92-a6a9125fdccb |
+| 15   | c9175546-36f7-49c0-bbe9-d7e98a02e2ad |
+| 16   | cd12309c-a04c-495c-bcd5-d572a57066dc |
+| 17   | cecc5505-d59a-4def-b9c2-e7c35bb49afb |
+| 18   | de45b02c-e867-4c7f-96e1-5e59cade1acb |
+| 19   | f2608e72-75bb-4415-a448-f337cbadcfa7 |
+
+## Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(tidyverse) #load tidyverse
+library(readxl)
+subject_videos_1992 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/1992_subject_UIDs.xlsx")
+subject_videos_1992 #print table
+```
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Fana**
+
+```{r}
+fana_92 <- c(1,3,9,10,11,15,16,17,18)
+set.seed(123)
+sample(fana_92, 9, replace = FALSE)
+```
+
+**Yo**
+
+```{r}
+yo_92 <- c(1,3,4,5,6,7,9,11,13,14,18,19)
+set.seed(123)
+sample(yo_92, 12, replace = FALSE)
+```
+
+**Velu**
+
+```{r}
+velu_92 <- c(2,6,7,9)
+set.seed(123)
+sample(velu_92, 4, replace = FALSE)
+```
+
+**Kai**
+
+```{r}
+kai_92 <- c(3,8,9,10,11,12,14,15,16,17)
+set.seed(123)
+sample(kai_92, 10, replace = FALSE)
+```
+
+**Jire**
+
+```{r}
+jire_92 <- c(2,3,4,5,6,8,9,10,11,12,13,14,16,17)
+set.seed(123)
+sample(jire_92, 14, replace = FALSE)
+```
+
+**Ja**
+
+```{r}
+ja_92 <- c(3,5,7,8,9,10,11,12,13,14,16,17)
+set.seed(123)
+sample(ja_92, 12, replace = FALSE)
+```
+
+**Yunro**
+
+```{r}
+yunro_92 <- c(6,18) 
+set.seed(123) 
+sample(yunro_92, 2, replace = FALSE) 
+```
+
+**Tua**
+
+```{r}
+tua_92 <- c(1,3,4,7,8,9,11,12,14,15,17,18) 
+set.seed(123) 
+sample(tua_92, 12, replace = FALSE) 
+```
+
+**Foaf**
+
+```{r}
+foaf_92 <- c(1,3,8,9,10,11,13,15,16,17,18)
+set.seed(123)
+sample(foaf_92, 11, replace = FALSE)
+```
+
+**Vui**
+
+```{r}
+vui_92 <- c(2,6,7,9,13,18,19)
+set.seed(123)
+sample(vui_92, 7, replace = FALSE)
+```
+
+**Na**
+
+```{r}
+na_92 <- c(2,3,4,8,11,12,17,19)
+set.seed(123)
+sample(na_92, 8, replace = FALSE)
+```
+

@@ -1,0 +1,95 @@
+---
+title: "2017 Random Video Selection"
+author: "Sophie Berdugo"
+date: "26/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection for Adult Efficiency and Model Investment
+
+## Year: 2017
+
+### Subjects
+
+The focal individuals in the 2017 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class |
+|:------: |:---:| :--------:|
+|Fana     |F    | Adult     |
+|Jire     |F    | Adult     |
+|Yo       |F    | Adult     |
+|Foaf     |M    | Adult     |
+|Jeje     |M    | Adult     |
+|Fanle    |F    | Adult     |
+
+### Video Unique Identifiers
+
+There are 6 clips in the Bossou Video Archive taken in 2017. The names for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the clips in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | Clip Name |
+|:---: | :--------:| 
+|1     | PAS1      |
+|2     | PAS2      |
+|3     | PAS3      |
+|4     | PAS5      |
+|5     | PAS6      |
+|6     | PAS7      |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(readxl)
+subject_videos_2017 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/2017_subject_UIDs.xlsx")
+subject_videos_2017
+```
+
+**Fana**
+
+```{r}
+fana_17 <- c(3,5) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fana_17, 2, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Jire**
+
+```{r}
+jire_17 <- c(1,2,3,4,5) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(jire_17, 5, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Foaf**
+
+```{r}
+foaf_17 <- c(3,5) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(foaf_17, 2, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Jeje**
+
+```{r}
+jeje_17 <- c(2,3,4,5) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(jeje_17, 4, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Fanle**
+
+```{r}
+fanle_17 <- c(1,2,3,4,6) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fanle_17, 5, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```

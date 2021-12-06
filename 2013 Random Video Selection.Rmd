@@ -1,0 +1,239 @@
+---
+title: "2013 Random Video Selection"
+author: "Sophie Berdugo"
+date: "26/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection for Adult Efficiency and Model Investment
+
+## Year: 2013
+
+### Subjects
+
+The focal individuals in the 2013 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class |
+|:------: |:---:| :--------:|
+|Fana     |F    | Adult     |
+|Jire     |F    | Adult     |
+|Yo       |F    | Adult     |
+|Velu     |F    | Adult     |
+|Foaf     |M    | Adult     |
+|Jeje     |M    | Adult     |
+|Fanle    |F    | Adult     |
+
+### Video Unique Identifiers
+There are 126 videos in the Bossou Video Archive taken in 2013. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                                                       |
+|:---: | :------------------------------------------------------------------------:|
+|1     | Bossou 2013-12-20 Clip 10 08;16;06 JJ, FF, FL, FW, FN, FE, JR             |
+|2     | Bossou 2013-12-20 Clip 4 07;39;43 FF (JJ) (FN, FE) (FL, FW)               |
+|3     | Bossou 2013-12-20 Clip 5 07;45;12 JJ, FF, FN, FE (FL) (FW, JR)            |
+|4     | Bossou 2013-12-20 Clip 6 07;51;09 FF, JJ, JR, FE (FL, FW)                 |
+|5     | Bossou 2013-12-20 Clip 7 07;55;53 FF, JJ, FL, FW                          |
+|6     | Bossou 2013-12-20 Clip 8 07;58;22 FF, JJ, FW, FL (FE) (FN) (JR)           |
+|7     | Bossou 2013-12-20 Clip 9 08;09;55 FF, JJ, FN, FL, FW, FE (JR)             |
+|8     | Bossou 2013-12-20 Clip 11 08;17;54 FN, FE, FL, FW (FF, JJ, JR)            |
+|9     | Bossou 2013-12-20 Clip 12 08;19;07 FN, FE (FL, FW, JR)                    |
+|10    | Bossou 2013-12-20 Clip 13 08;21;30 JJ, FE, FN, FW, FL (FF)                |
+|11    | Bossou 2013-12-20 Clip 14 08;25;38 FF, JJ, FL, FW, FE, FN                 | 
+|12    | Bossou 2013-12-20 Clip 15 08;26;51 FF, JJ, JR, FL, FW, FN, FE             |
+|13    | Bossou 2013-12-20 Clip 16 08;28;09 FF, JJ, JR, FL, FW, FN                 |
+|14    | Bossou 2013-12-20 Clip 17 08;29;34 FF, JJ, JR, FL, FW, FN                 |
+|15    | Bossou 2013-12-20 Clip 18 08;32;08 JJ, FW, JR, FL (FN) (FE) (FF)          |
+|16    | Bossou 2013-12-20 Clip 19 08;35;02 FF, JJ, FE, FN, FL, FW                 |
+|17    | Bossou 2013-12-20 Clip 20 08;36;31 FN, FF, JJ, FL, FW, FE (JR)            |
+|18    | Bossou 2013-12-20 Clip 21 08;38;48 FN, FF, JJ, FE, FW, FL (JR)            |
+|19    | Bossou 2013-12-20 Clip 23 08;41;33 JR, FN, FF, JJ, FL, FW, FE             |
+|20    | Bossou 2013-12-20 Clip 24 08;42;20 JR, FN, FF, JJ, FE, FL, FW             |
+|21    | Bossou 2013-12-20 Clip 25 08;42;50 FN, FE, FF, JJ (FL, FW)                |
+|22    | Bossou 2013-12-21 Clip 1 07;16;42 JJ (FE) (JR, FN) (FF)                   |
+|23    | Bossou 2013-12-21 Clip 10 07;38;51 JJ, FE, JR, FN, FF                     |
+|24    | Bossou 2013-12-21 Clip 11 07;43;08 JJ, FE                                 |
+|25    | Bossou 2013-12-21 Clip 12 07;46;15 JJ, FE, JR, FF                         |
+|26    | Bossou 2013-12-21 Clip 13 07;49;20 JJ, FE (JR, FF)                        |
+|27    | Bossou 2013-12-21 Clip 14 07;04;45 JJ, FE (JR, FF)                        |
+|28    | Bossou 2013-12-21 Clip 15 07;06;04 JJ, FE, JR, FF (FN)                    |
+|29    | Bossou 2013-12-21 Clip 16 07;17;55 FE, JJ                                 |
+|30    | Bossou 2013-12-21 Clip 17 07;20;37 FE, JJ (FN)                            |
+|31    | Bossou 2013-12-21 Clip 18 07;30;28 JJ, FN, FE                             |
+|32    | Bossou 2013-12-21 Clip 19 08;33;30 JJ, FN                                 |
+|33    | Bossou 2013-12-21 Clip 20 08;35;36 JJ, FN (FE)                            |
+|34    | Bossou 2013-12-21 Clip 23 16;06;49 FF, JJ                                 |
+|35    | Bossou 2013-12-21 Clip 24 16;12;02 JJ (JR) (FF)                           |
+|36    | Bossou 2013-12-21 Clip 25 16;24;20 JR, JJ, FF                             |
+|37    | Bossou 2013-12-21 Clip 26 16;27;31 JJ, FF, JR                             | 
+|38    | Bossou 2013-12-21 Clip 27 16;46;03 JJ, FF (JR)                            |
+|39    | Bossou 2013-12-21 Clip 3 07;23;56 FF, JR, FE, FN, JJ                      |
+|40    | Bossou 2013-12-21 Clip 28 16;48;17 FF (JJ)                                |
+|41    | Bossou 2013-12-21 Clip 29 16;49;41 FF (JR)                                |
+|42    | Bossou 2013-12-21 Clip 30 16;56;00 FF                                     |
+|43    | Bossou 2013-12-21 Clip 31 16;57;37 FF, JR                                 |  
+|44    | Bossou 2013-12-21 Clip 6 07;30;07 JJ, FF                                  |
+|45    | Bossou 2013-12-21 Clip 7 07;33;09 FE, FN (FF)                             |
+|46    | Bossou 2013-12-21 Clip 8 07;34;25 FN, FF                                  |
+|47    | Bossou 2013-12-21 Clip 33 17;06;15 JJ, JR, FF                             |
+|48    | Bossou 2013-12-22 Clip 12 07;26;35 FN, FE (JJ, FF)                        |
+|49    | Bossou 2013-12-22 Clip 13 07;37;02 JJ (FE, FF) (FN)                       |
+|50    | Bossou 2013-12-22 Clip 14 07;40;14 FN, FE                                 |
+|51    | Bossou 2013-12-22 Clip 19 11;48;46 FE, JJ, FN (FL, FW)                    |
+|52    | Bossou 2013-12-22 Clip 20 11;55;13 FL, FW, FE (JJ, FN) (YO)               |
+|53    | Bossou 2013-12-22 Clip 21 11;56;53 JJ, YO, FL, FW, FE, FN                 |
+|54    | Bossou 2013-12-22 Clip 23 12;09;13 FE, YO (FL, FN, FW) (FF, JJ)           |
+|55    | Bossou 2013-12-22 Clip 22 12;05;31 FE (YO) (FW) (JJ, FL)                  |
+|56    | Bossou 2013-12-22 Clip 24 12;12;45 FE, FN, FL, FW (JJ) (YO)               |
+|57    | Bossou 2013-12-22 Clip 29 12;29;15 FE, FL, FW (JJ)                        |
+|58    | Bossou 2013-12-22 Clip 30 12;36;57 FE, FL, FW                             |
+|59    | Bossou 2013-12-22 Clip 31 12;44;26 FL, FW, FE (JJ)                        |
+|60    | Bossou 2013-12-23 Clip 1 07;51;03 FF, JJ (JR)                             |
+|61    | Bossou 2013-12-23 Clip 2 08;17;04 JR, FF, JJ                              |
+|62    | Bossou 2013-12-23 Clip 3 08;20;46 FF                                      |
+|63    | Bossou 2013-12-23 Clip 4 08;22;03 JR                                      |
+|64    | Bossou 2013-12-23 Clip 5 08;24;32 JJ                                      |
+|65    | Bossou 2013-12-23 Clip 6 08;27;08 JR, FF, JJ                              |
+|66    | Bossou 2013-12-23 Clip 7 08;32;24 FF, JR (JJ)                             |
+|67    | Bossou 2013-12-23 Clip 10 10;03;12 JJ, JR, FF                             |
+|68    | Bossou 2013-12-23 Clip 12 11;26;46 FF, FW, FL, JR                         |
+|69    | Bossou 2013-12-23 CLip 13 11;28;09 FF (FW, FL) (JJ) (JR)                  | 
+|70    | Bossou 2013-12-23 Clip 16 11;34;14 FL, FW (JJ, JR)                        |
+|71    | Bossou 2013-12-23 Clip 20 11;52;45 FF                                     |
+|72    | Bossou 2013-12-23 Clip 21 11;53;24 FW, FL, JJ (YO) (FF)                   |
+|73    | Bossou 2013-12-23 Clip 23 12;02;28 YO, FL (JR)                            |
+|74    | Bossou 2013-12-23 Clip 24 12;09;21 JJ, YO, FW, FL                         |
+|75    | Bossou 2013-12-23 Clip 25 12;11;56 FW, FL                                 |
+|76    | Bossou 2013-12-23 Clip 26 12;24;17 FW, FL (JJ) (YO)                       |
+|77    | Bossou 2013-12-23 Clip 27 12;36;16 JJ, FL, FW (YO) (JR)                   |
+|78    | Bossou 2013-12-23 Clip 28 12;41;50 YO, FL, FW, JR (FF)                    |  
+|79    | Bossou 2013-12-23 Clip 29 12;52;03 FF, FW, YO, FL, JR                     |
+|80    | Bossou 2013-12-23 Clip 30 13;01;15 FF, FW, YO, FL (JR) (JJ)               |
+|81    | Bossou 2013-12-23 Clip 31 16;20;21 FW, FL, FE, FN (YO) (VL)               |
+|82    | Bossou 2013-12-23 Clip 32 16;25;32 VL, YO, FN (FE) (FL, FW)               |
+|83    | Bossou 2013-12-23 Clip 33 16;29;49 VL                                     |
+|84    | Bossou 2013-12-23 Clip 34 16;30;02 VL                                     |
+|85    | Bossou 2013-12-23 Clip 35 16;31;26 FE, FL, FW (FN) (YO)                   |  
+|86    | Bossou 2013-12-23 Clip 37 16;39;10 VL (YO, FE, FN, FL, FW)                |
+|87    | Bossou 2013-12-23 Clip 38 16;50;21 FW, FL                                 |
+|88    | Bossou 2013-12-23 Clip 39 16;50;58 FW, FL (YO, FE)                        |
+|89    | Bossou 2013-12-23 Clip 40 16;54;18 FE, FW, FL (YO)                        |
+|90    | Bossou 2013-12-24 Clip 7 10;41;35 FE, JJ, FF, FN                          |
+|91    | Bossou 2013-12-24 Clip 8 10;44;35 JJ, FF, JE, JR, FN                      | 
+|92    | Bossou 2013-12-24 Clip 9 10;50;35 JR                                      |
+|93    | Bossou 2013-12-24 Clip 10 10;58;53 JR                                     |
+|94    | Bossou 2013-12-24 Clip 13 14;22;24 JJ (FF) (JR)                           |
+|95    | Bossou 2013-12-24 Clip 14 14;24;21 JR                                     |
+|96    | Bossou 2013-12-24 Clip 15 14;28;51 JJ                                     |
+|97    | Bossou 2013-12-24 Clip 16 14;29;47 JJ                                     |
+|98    | Bossou 2013-12-24 Clip 17 14;30;32 FF (JJ)                                |
+|99    | Bossou 2013-12-24 Clip 18 14;38;46 JJ                                     |
+|100   | Bossou 2013-12-25 Clip 2 11;22;17 JJ (FF)                                 |
+|101   | Bossou 2013-12-25 Clip 3 11;25;30 FF (JJ)                                 |
+|102   | Bossou 2013-12-25 Clip 4 11;36;18 JJ                                      |
+|103   | Bossou 2013-12-25 Clip 5 12;39;14 JJ, FF, JR                              |
+|104   | Bossou 2013-12-25 Clip 7 12;52;25 JJ, JR, FF                              |
+|105   | Bossou 2013-12-25 Clip 8 12;54;08 JR, JJ (FF)                             |
+|106   | Bossou 2013-12-25 Clip 9 13;03;38 JR                                      |
+|107   | Bossou 2013-12-25 Clip 16 14;27;00 JJ, FW, FL (FE) (JR, YO) (FF) (FN) (VL)|
+|108   | Bossou 2013-12-25 Clip 17 14;48;50 JR, FN, FE, VL (JJ) (FW, FL)           |
+|109   | Bossou 2013-12-25 Clip 18 14;59;59 FL, FE, FW, FN (VL) (JR)               |
+|110   | Bossou 2013-12-25 Clip 19 15;04;17 FL, FE, FW (FN, JJ) (JR) (YO)          |
+|111   | Bossou 2013-12-25 Clip 20 15;07;25 FL, FW (FE) (JJ) (FN) (JR)             |
+|112   | Bossou 2013-12-25 Clip 21 15;19;33 FW, FL, FE, FN                         |
+|113   | Bossou 2013-12-25 Clip 22 16;25;33 JJ (JR)                                |
+|114   | Bossou 2013-12-25 Clip 24 17;00;22 FF, JJ                                 |
+|115   | Bossou 2013-12-26 Clip 8 08;12;45 YO (JJ)                                 |   
+|116   | Bossou 2013-12-26 Clip 9 08;22;49 JJ                                      |
+|117   | Bossou 2013-12-26 Clip 10 08;28;14 YO, FF (VL) (JR)                       |
+|118   | Bossou 2013-12-26 Clip 11 08;31;00 VL, YO, JR, FF (JJ)                    |
+|119   | Bossou 2013-12-26 Clip 12 08;38;42 YO, VL, FN, FF, JJ, JR (FE) (FL, FW)   |
+|120   | Bossou 2013-12-26 Clip 13 08;44;03 FN, FE (JJ) (VL, YO, FF, FW, FL)       |
+|121   | Bossou 2013-12-26 Clip 14 08;47;21 VL, YO, FF, FL, FN, JJ, FE, JR (FW)    |
+|122   | Bossou 2013-12-26 Clip 32 14;40;14 FE, FN, FW, FL                         |
+|123   | Bossou 2013-12-26 Clip 33 14;44;32 FN, FW, FL (FE)                        |
+|124   | Bossou 2013-12-26 Clip 35 15;15;45 FE, FW, FL                             |
+|125   | Bossou 2013-12-26 Clip 36 15;26;14 FL, FE, FW (FN)                        |
+|126   | Bossou 2013-12-26 Clip 37 15;43;07 FE, FW, FN, FL                         |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(readxl)
+subject_videos_2013 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/2013_subject_UIDs.xlsx")
+subject_videos_2013
+```
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Fana**
+
+```{r}
+fana_13 <- c(1,8,9,10,11,13,14,15,16,17,18,19,20,21,30,31,32,33,48,49,50,51,53,54,56,82,85,86,108,109,111,112,125,126) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fana_13,33, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Yo**
+
+```{r}
+yo_13 <- c(55,78,79,80,115,117,118) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(yo_13, 7, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Velu**
+
+```{r}
+velu_13 <- c(83,84,86,108) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(velu_13, 4, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Jire**
+
+```{r}
+jire_13 <- c(4,8,17,18,23,37,38,41,43,60,61,63,65,67,70,73,79,80,90,91,92,93,94,95,104,105,106,108,109,111,113) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(jire_13, 31, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Foaf**
+
+```{r}
+foaf_13 <- c(1,2,3,4,5,6,7,8,10,11,16,23,34,35,37,38,39,40,41,42,43,44,45,46,47,60,61,62,66,68,69,71,72,90,91,98,100,101,103,107,117,118,119,120,121) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(foaf_13, 45, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Jeje**
+
+```{r}
+jeje_13 <- c(1,3,4,6,7,8,11,12,13,14,15,16,17,19,20,21,22,23,24,25,26,27,28,29,30,34,35,36,37,39,48,49,51,52,56,60,61,64,72,74,94,96,97,98,99,102,107,108,110,113,114,116,119,120) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(jeje_13, 54, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Fanle**
+
+```{r}
+fanle_13 <- c(1,8,9,10,11,12,13,14,15,53,54,56,57,58,59,75,76,77,78,81,82,85,86,87,88,89,107,109,110,111,112,122,123,124,125,126) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fanle_13, 36, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```

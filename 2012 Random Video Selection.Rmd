@@ -1,0 +1,204 @@
+---
+title: "2012 Random Video Selection"
+author: "Sophie Berdugo"
+date: "18/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection for Adult Efficiency and Model Investment
+
+## Year: 2012
+
+### Subjects
+
+The focal individuals in the 2012 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class |
+|:------: |:---:| :--------:|
+|Fana     |F    | Adult     |
+|Jire     |F    | Adult     |
+|Yo       |F    | Adult     |
+|Velu     |F    | Adult     |
+|Tua      |M    | Adult     |
+|Foaf     |M    | Adult     |
+|Jeje     |M    | Adult     |
+|Peley    |M    | Adult     |
+|Fanle    |F    | Adult     |
+|Joya     |F    | Adolescent|
+
+### Video Unique Identifiers
+There are 64 videos in the Bossou Video Archive taken in 2012. The video unique identifiers (UIDs) for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the UIDs in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | UID                                  |
+|:---: | :-----------------------------------:|
+|1     | 0306a07d-865b-42f8-bfa4-32acbfb8244e |
+|2     | 03cfb0b3-d898-4aaf-abb4-445f54941bfe |
+|3     | 0a9dae1d-cac7-4f17-95c6-5615209a60ae |
+|4     | 0d4b5b67-a67c-4de3-a558-c8a4cf593c8c |
+|5     | 0f0d566f-1e00-42cd-84f4-bba275e4b89d |
+|6     | 11f00912-27d3-47b8-adf4-2d8b0b427958 |
+|7     | 1375d112-1c66-43d7-9cb5-bb0928643539 |
+|8     | 1823b7c3-004f-4708-a52a-36b1d3f219b3 |
+|9     | 19d6d6ce-de0f-4c67-8792-507394ed0cb9 |
+|10    | 2995be03-ff0d-40f5-b64b-fc3a325a7d47 |
+|11    | 2f70663b-2bf4-44a7-9bce-7792cfdd35cb |
+|12    | 31b2f151-5c86-4bd1-b681-1eec3cdf1350 |
+|13    | 357b79c7-9ce6-42a8-81f1-2a732dc483c5 |
+|14    | 3999eedb-0d3b-43d2-a032-2a0430c89f36 |
+|15    | 3bb8a1a0-9c08-426a-9e04-817c6210f6ad |
+|16    | 3dfbeb67-ee57-4652-8af7-0c7e8cca7291 |
+|17    | 41adf710-ec07-4b65-834a-a9227c5ca65c |
+|18    | 4225e9f7-be30-406f-b673-397b06e2787c |
+|19    | 45df7f94-8336-4542-ae22-d4913587a434 |
+|20    | 4abd5840-4875-4672-ad61-7e02348fd08a |
+|21    | 4c2fa733-3b37-413f-abd7-13b38de31eff |
+|22    | 4daab16e-0146-4db8-8f07-9b4cf10b3750 |
+|23    | 4fd2ce52-887b-4190-b58d-6f33ed4abd00 |
+|24    | 520c4710-ac41-403f-86dc-4879a133dde4 |
+|25    | 52c8a17c-a400-4339-8259-d48ae0acef58 |
+|26    | 53f1d36f-308b-426c-964f-f5acb6116d0d |
+|27    | 54b2437c-647e-4917-bd40-a0cc2bc5f017 |
+|28    | 567f4e33-2770-4744-825e-ebb506e6d06d |
+|29    | 595a0c23-3907-47cb-8a7f-0d9a7873c3af |
+|30    | 5c2f7666-7bf2-4b6c-8655-6fbbac62b1be | 
+|31    | 67df6cd9-86cc-46bd-a262-35da00cdcd22 |
+|32    | 67dfa96c-760b-4f15-a287-9777e4177d07 |
+|33    | 77a51c69-a5aa-4f4d-9f02-d1772772c5dc |
+|34    | 78728564-790a-46cb-86f7-a74e37574ec3 |
+|35    | 7e2464ea-c1af-4fe1-850a-ae1ff4f061f1 |
+|36    | 80d15e31-c339-4ab6-a05e-fb05150eaffe |
+|37    | 874b3538-eefe-4834-8057-91381d6a1b25 |
+|38    | 88e1d705-28fd-4a07-8959-1afdeacf623d |
+|39    | 8a97354e-1d76-44cf-8d2a-04b53db7d3f8 |
+|40    | 9b1a22fb-ba73-4514-aa27-96eab4f8cee8 |
+|41    | a118abac-0a3f-4f78-8322-f27c3c5bb02e |
+|42    | a75298e8-3159-4681-97f2-cddf8b5a3c74 |
+|43    | a86d7ab3-16a7-47a2-a03f-215256e6a664 |
+|44    | b152b3e6-4bcb-46ed-8cd7-be57bb243548 |
+|45    | c3863c97-5411-4fb4-84fd-13c21bc4da9d |
+|46    | c485ae08-5d02-4a2e-b527-c45b97724302 |
+|47    | c6d9ab9f-f7fc-4ab4-a8a9-4cc5b305bf0b |
+|48    | c77546f5-e8e3-4df1-a9c4-01b6fa03ffcb |
+|49    | ca65279d-59f8-4a20-815d-cf788314671b |
+|50    | cc1970b8-d598-4d67-ad49-1afbb2537084 |
+|51    | cc33486e-16a1-4070-9e6c-dd04ee1520e0 |
+|52    | d43bcaf6-6f27-4c71-91b1-74aedb6cc023 |
+|53    | d46a44be-a87a-4d00-b653-c111a23b1873 |
+|54    | d6aa58f1-077e-4601-9fe3-aef0c6c4ea7c |
+|55    | d9d77271-3a02-4122-b972-69cece34bcb2 |
+|56    | d9ff0e37-c89b-4315-aa9a-d9a3afa7c96d |
+|57    | dce07c56-1975-4bdf-a4ea-fd23b78f6cca |
+|58    | ebdee9c6-1363-44af-9e47-47b6c13c0864 |
+|59    | f06ba03d-3bed-4e9c-ad4e-975b0026c791 |
+|60    | f14ab526-82d9-4fc8-9d28-1be80c134c01 |
+|61    | f1acdcbb-c0d2-4a5d-98e4-e6d5986f15e1 |
+|62    | f457dfe6-035c-416a-a584-5250ab6bae29 |
+|63    | f6c39fd0-4116-4104-b378-dc9665761fbd |
+|64    | f727253d-c9d3-4e5b-9aab-a455ec6e0a53 |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(readxl)
+subject_videos_2012 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/2012_subject_UIDs.xlsx")
+subject_videos_2012
+```
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Fana**
+
+```{r}
+fana_12 <- c(26,45) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fana_12, 2, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Yo**
+
+```{r}
+yo_12 <- c(29,60) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(yo_12, 2, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Velu**
+
+```{r}
+velu_12 <- c(25,34) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(velu_12, 2, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Jire**
+
+```{r}
+jire_12 <- c(2,3,6,7,9,13,14,16,17,26,30,38,39,40,43,45,47,48,53,55,56,61,64) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(jire_12, 23, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Tua**
+
+```{r}
+tua_12 <- c(2,5,6,7,8,15,17,21,24,27,34,38,39,43,45,48,53,55,63,64) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(tua_12, 20, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Foaf**
+
+```{r}
+foaf_12 <- c(5,6,7,9,12,13,14,15,21,24,26,27,28,31,35,37,38,41,47,48,51,53,55,58,59,62) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(foaf_12, 26, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Jeje**
+
+```{r}
+jeje_12 <- c(4,5,7,8,10,13,14,15,17,18,20,21,26,27,28,30,31,33,34,35,37,38,39,41,44,45,46,47,48,50,51,53,54,55,57,59,61,62,63,64) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(jeje_12, 40, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Peley**
+
+```{r}
+peley_12 <- c(7,8,11,14,15,19,23,26,27,30,31,34,35,38,39,41,42,45,47,48,50,55,59,63,64) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(peley_12, 25, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Fanle**
+
+```{r}
+fanle_12 <- c(1,2,3,8,15,16,24,26,27,31,32,35,36,40,41,42,43,45,47,48,55,56,59,61,63) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fanle_12, 25, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Joya**
+
+```{r}
+joya_12 <- c(1,2,3,5,7,9,10,14,15,16,21,22,23,24,26,27,28,30,31,32,33,35,36,37,38,40,41,47,48,49,51,52,55,56,61) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(joya_12, 35, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```

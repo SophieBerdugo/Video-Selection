@@ -1,0 +1,103 @@
+---
+title: "2014 Random Video Selection"
+author: "Sophie Berdugo"
+date: "10/09/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Random Video UID Selection for Adult Efficiency and Model Investment
+
+## Year: 2014
+
+### Subjects
+
+The focal individuals in the 2014 footage can be found in Table 1.
+
+**Table 1**
+
+|Subject  | Sex | Age Class |
+|:------: |:---:| :--------:|
+|Fana     |F    | Adult     |
+|Jire     |F    | Adult     |
+|Yo       |F    | Adult     |
+|Velu     |F    | Adult     |
+|Foaf     |M    | Adult     |
+|Jeje     |M    | Adult     |
+|Fanle    |F    | Adult     |
+|Flanle   |M    | Juvenile  |
+
+### Video Unique Identifiers
+There are 15 clips in the Bossou Video Archive taken in 2014. The names for these videos, and a corresponding numerical code for each, are found in the Table 2, below. The codes were assigned by ordering the clips in ascending order and then providing an integer value for each UID starting from 1 and increasing by a value of 1 each time.
+
+**Table 2**
+
+|Code  | Clip Name                                                       |
+|:---: | :--------------------------------------------------------------:| 
+|1     | Bossou 2014-01-03 Clip 5 14;09;30 JJ, FF                        |
+|2     | Bossou 2014-01-03 Clip 6 14;18;45 JJ, FF                        |
+|3     | Bossou 2014-01-03 Clip 7 14;27;12 JJ, FF                        |
+|4     | Bossou 2014-01-03 Clip 8 14;31;25 JJ, FF (JR)                   |
+|5     | Bossou 2014-01-04 Clip 4 10;34;03 FL, FW (FE)                   |
+|6     | Bossou 2014-01-04 Clip 5 10;44;22 FL, FW (FE)                   |
+|7     | Bossou 2014-01-05 Clip 7 15;59;20 FF, YO, JR, JJ                |
+|8     | Bossou 2014-01-05 Clip 8 16;08;55 FF, YO, JJ, JR                |
+|9     | Bossou 2014-01-07 Clip 1 14;14;01 FL, FW, FF (JJ, JR) (VL) (FE) |
+|10    | Bossou 2014-01-07 Clip 2 14;24;44 FL, FW, FN, JR, JJ (FE)       |
+|11    | Bossou 2014-01-07 Clip 3 15;23;03 JJ, FL, FW (FE) (VL)          |
+|12    | Bossou 2014-01-07 Clip 4 15;36;04 FE, FW, FL, FN                |
+|13    | Bossou 2014-01-07 Clip 5 15;45;37 FE                            |
+|14    | Bossou 2014-01-10 Clip 3 14;57;15 YO, FE, FW, FL, FN, FF        |
+|15    | Bossou 2014-01-10 Clip 9 15;46;31 JJ                            |
+
+### Data Collection
+The focal subjects appear in the videos to varying degrees. For data collection, the videos will be randomly selected for each subject to reduce bias. This requires information on which individuals can be found nut-cracking in each video. Accordingly, a data frame has been created with this information.
+
+In the data frame, 1 = present and 0 = not present.
+
+```{r}
+library(readxl)
+subject_videos_2014 <- read_excel("~/Documents/Oxford/DPhil/Project Components/Methods/Data/Subjects UIDs by Year/2014_subject_UIDs.xlsx")
+subject_videos_2014
+```
+
+#### Random Video Selection
+In order to generate a random selection of videos to include for behavioural analysis, the following steps need to be completed:
+
+1. Create vectors for each subject with the video codes (see Table 2) for which they are present.
+2. Set the seed value using the ```{r} set.seed()``` function.
+3. Use the ```{r} sample()``` function to generate integers. Use replace=FALSE to generate integers without replacement.
+4. Repeat this process for each subject until all data is collected.
+
+**Foaf**
+
+```{r}
+foaf_14 <- 7
+print(foaf_14)
+```
+
+**Jeje**
+```{r}
+jeje_14 <- c(1,2,3,4,7,8,9,10,15) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(jeje_14, 9, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Fanle**
+
+```{r}
+fanle_14 <- c(5,6,10,11,14) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(fanle_14, 5, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
+
+**Flanle**
+
+```{r}
+flanle_14 <- c(10,12,13,14) #create the vector
+set.seed(123) #set the seed to make the sequence of random numbers replicable
+sample(flanle_14, 4, replace = FALSE) #sample the vector and use replace=FALSE to sample without replacement
+```
